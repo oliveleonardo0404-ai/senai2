@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Botão que Muda Texto</title>
+</head>
+
+<body>
+
+    <button id="botaoMudarCor">Mudar para Azul</button>
+
+    <script>
+        // Seleciona o botão pelo ID
+const botao = document.getElementById('botaoMudarCor');
+
+// Adiciona um "ouvinte" de evento de clique ao botão
+botao.addEventListener('click', function() {
+  // Quando o botão é clicado, muda a cor de fundo do body para azul
+  document.body.style.backgroundColor = 'blue';
+});
+
+
+
+    </script>
+</body>
+</html>

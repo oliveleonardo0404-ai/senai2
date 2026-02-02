@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+   
+    height: 100vh;
+}
+
+.metade-4{
+    height: 25%;
+
+}
+
+.faixa-1{
+    background: linear-gradient(to right , blue 50% , rgb(241, 13, 5) 50%);
+    height: 40%;  
+    width: 100%;
+  }
+
+.faixa{
+    background: blue;
+    height: 100%;
+    width: 50%;
+    justify-self: left;
+  }
+  .faixa-2{
+    background: rgb(255, 0, 0);  
+    height: 100%;
+    width: 50%;
+    justify-self: right;
+  }
+
+.quadrado-azul{
+    background-color: blue;
+    height: 260px;
+    width: 260px;
+}
+.retangulo{
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+}
+
+.linha-1{
+    display: flex;
+    justify-content: space-between;
+}
+.linha-2{
+    display: flex;
+}
+.nada{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    width: 260px;
+}
+
+.bloco-amarelo{
+    background-color: yellow;
+    height: 110px;
+    width: 110px;
+  }  
+
+  .espaco{
+    justify-content: space-between;
+  }
+  .espaco1{
+    justify-content: space-around;
+  }
+
+
+.linha{
+    height: 33.3333%;
+}
+.linha-2{
+    height: 50%;
+}
+.baixo{
+    width: 50%;
+    height: 50%;
+}
+
+.quadrado-laranja{
+    background-color: rgb(241, 147, 7);
+    height: 70px;
+    width: 70px;
+}
+
+.metade{
+    height: 66%;
+}
+.metade_2{
+    height: 73%;
+}
+.metade_3{
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+}
+.alinha-meio{
+    justify-content: center;
+}
+.alinha-meio1{
+    align-items: center;
+}
+.alinha-meio2{
+    align-items: end;
+}
+
+.alinha-coluna-final{
+    align-items: end;
+    
+}
+.alinha-final{
+    justify-content: end;
+}
+.alinha-coluna{
+    flex-direction: row;
+}
+
+  

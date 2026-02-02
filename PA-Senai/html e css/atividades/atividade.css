@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.faixa-1{
+  background: linear-gradient(to right , blue 50% , yellow 50%);
+  height: 33.3333%;  
+  width: 100%;
+}
+.faixa-branca{
+  background-color: aliceblue;
+  height: 33.3333%;
+  width: 100%;
+}
+
+.bloco-amarelo{
+  background-color: yellow;
+  height: 110px;
+  width: 110px;
+}
+
+.bloco-azul{
+  background-color: blue;
+  height: 110px;
+  width: 110px;
+}
+
+.faixa-3{
+  background-color: blue;
+  height: 33.33%;
+  width: 100%;
+}
+
+.meio{
+  justify-content: center;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.invertido{
+  flex-direction: row-reverse;
+
+
+}
+
+.meio-alinha{
+  width: 50%;
+
+}
+
+.meio-1{
+  height: 90%;
+  width: 90%;
+}
+.alinha-meio{
+  align-items: center;
+}
+.meio-2{
+  height: 50%;
+}
+
+
+.alinha-centro{ 
+  align-items: st;
+}
+.container{
+  height: 100vh;
+}
+
+.alinha-coluna-final{
+  justify-content: end;
+}
+
+.meio-alinha1{
+  height: 50%;
+
+}
+
+.alinha-coluna-final1{
+  align-items: end;
+}
+.espaco{
+  justify-content: space-between;
+}

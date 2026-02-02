@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botão Animado</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      background: #f0f0f0;
+    }
+
+    button {
+      background: #6200ea;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease; /* tempo e suavidade da animação */
+    }
+
+    button:hover {
+      background: #3700b3;
+      transform: scale(1.1); /* aumenta um pouco o tamanho */
+      box-shadow: 0 0 15px rgba(98, 0, 234, 0.6);
+    }
+
+    button:active {
+      transform: scale(0.95); /* encolhe um pouco ao clicar */
+    }
+  </style>
+</head>
+<body>
+  <button onclick="">somar</button>
+</body>
+</html>

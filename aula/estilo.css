@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+}
+
+.faixa-1{
+    display: flex;
+  
+}
+
+.faixa-2{
+    display: flex;
+   
+}
+
+.caixa-1{
+    background-color: greenyellow;
+    height: 920px;
+    width: 400px;
+    justify-self: left;
+    flex-direction: column;
+}   
+
+.caixa-2{
+    background-color: antiquewhite;
+    height: 920px;
+    width: 850px;
+    justify-self: right;
+    flex-direction: column;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.centro-linha{
+    align-items: center;
+}
+.centro{
+    justify-content: center;
+}
+
+.borda{
+    border-radius: 15px
+}
+
+.div1{
+    background-color: greenyellow;
+    height: 33.3333%;
+    width: 250px;
+    margin-top: 250px;
+    margin-left: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.div2{
+    background-color: greenyellow;
+    height: 33.3333%;
+    width: 250px;
+    margin-bottom: 225px;
+    margin-left: 115px;
+}
+
+.centro-alinha{
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.entrar{
+    background-color: greenyellow;
+    align-items: center ;
+    justify-content: start;
+    margin-left: 75px;
+    margin-right: 5px;
+    margin-bottom: 2505px;
+    flex-direction: column;
+    height: 33.3333%;
+    width: 250px; 
+
+   
+
+}
+
+.arrumar{
+    align-items: center ; 
+    justify-content: start;
+}
+
+.botao{
+    margin-top: -200px;
+    margin-left: 8px;
+    border-radius: 20px 20px 20px 20px;
+    height: 75px;
+    width: 250px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: rgb(68, 243, 14);
+}
+
+.div3{
+    background-color:antiquewhite;
+    height: 25%;
+    width: 250px;
+    margin-top: 205px;
+    margin-left: 320px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.div4{
+    background-color: antiquewhite; 
+    height: 25%;
+    width: 270px;
+    margin-bottom: 90px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.input{
+    width: 250px;
+    height: 50px;
+
+}
+
+.div5{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 270px;
+    margin-bottom: 120px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.div6{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 270px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.coluna{
+    flex-direction: column;
+}
+
+.cadastrar{ 
+    background-color:antiquewhite;
+    align-items: center ;
+    justify-content: start;
+    margin-left: 305px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+   
+    height: 25%;
+    width: 250px; 
+
+}
+
+  

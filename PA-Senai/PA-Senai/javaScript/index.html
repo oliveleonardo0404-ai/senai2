@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <script>
+    let variavel_let = 22; // variavel de escopo local
+    var variavel_var = "rocha"; // varial de escopo global
+    const variavel_const = true; // variavel do tipo constante  -> valor inalteravel
+
+     let x = {
+        nome: "ronaldo",
+        idade:28
+     }
+
+     if(x.nome == "joão"){
+        console.log("é igual")
+     }
+     else{
+        console.log("é diferente")
+     }
+    let A = 50
+    let B = 5
+
+    
+    if(variavel_let == 5){
+         console.log("É igual")
+    }
+    else{
+        console.log("É diferente")
+    }
+
+    if( A == 0 || B == 0){
+        console.log("Não pode haver divisão")
+
+    }
+    else{
+        console.log(A / B)
+    }
+
+    function somar(a,b,c){
+        return a + b + c;
+
+    }
+    console.log(somar(42,12,32));
+
+    function subtra(a,b,c) {
+        return a - b - c;
+    }
+    console.log(subtra(12,6,6));
+
+    function mult(a,b,c){
+        return a * b * c 
+    }
+    
+    console.log(mult(2,2,2))
+
+
+
+
+
+    
+    
+  
+   
+    </script>
+
+
+</body>
+
+</html>
