@@ -1,0 +1,108 @@
+
+// $eq - Corresponde a valores que são iguais a um valor especificado.
+
+
+// $gt - Corresponde a valores maiores que um valor especificado.
+
+
+// $gte - Corresponde a valores maiores ou iguais a um valor especificado.
+
+// $in - Corresponde a qualquer um dos valores especificados em uma matriz.
+
+// $lt - Corresponde a valores que são menores que um valor especificado.
+
+// $lte - Corresponde a valores menores ou iguais a um valor especificado.
+
+// $ne - Corresponde a todos os valores que não são iguais a um valor especificado.
+
+// $nin
+
+// Não corresponde a nenhum dos valores especificados em uma matriz
+
+
+// show databases
+
+
+
+
+// use ("aulaDS")
+
+// db.people.insertOne({
+//     name: "Donathan",
+//     age: 22
+// })
+
+
+// db.people.insertMany([
+//     { name: "Joao", age: 30 },
+//     { name: "Daniel", age: 40 },
+//     { name: "Elba", age: 35 },
+// ])
+
+
+
+
+
+// const pessoas = [
+//     { name: "Joao1", age: 30 },
+//     { name: "Joao2", age: 40 },
+//     { name: "Joao3", age: 35 },
+// ]
+
+// db.people.insertMany(pessoas)
+
+
+
+// Encontrar todos os dados
+// db.people.find()
+
+// Encontrar dados que tenham o nome Donathan
+// db.people.find({name: "Donathan"})
+
+// Encontrar dados que tenham nome Donathan e idade 22
+// db.people.find({ $and: [{name: "Donathan"}, {age: 22}] })
+
+
+
+// db.people.find({ age: { $gt: 20 } })
+
+
+
+// db.people.find({name:"Daniel moura"})
+
+// db.people.update(
+//     {_id: ObjectId('69c1813fe541813e25451240')},
+//     { $set: {name:"Daniel moura"}}
+// );
+
+
+// db.people.deleteOne({
+//     name: "Donathan"
+// })
+
+
+// db.people.find({name:"Donathan"})
+
+
+use ("produtos")
+
+// db.produtos.insertOne({
+//      name:"coca" ,
+//      descrit:"garrafa com bebida doce" ,
+//      preco:11.99,
+//      categoria:"bebida" ,
+//      QTD:55 
+// })
+
+db.produtos.find({name:"coca"})
+
+// db.produtos.updateOne(
+//     {_id: ObjectId('69c1998d950c3bf8d77ca688')},
+//     { $set: {name:"Coca Cola"}}
+// );
+
+// db.produtos.deleteOne({
+//     name: "coca"
+// })
+
+
